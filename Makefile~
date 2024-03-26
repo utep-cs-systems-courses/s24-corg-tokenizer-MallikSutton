@@ -1,7 +1,0 @@
-all: fooTest  # the default production is defined first 
-tester.o: tester.c 
-    cc -c foo.c 
-testerTest.o: testerTest.c 
-    cc -c testerTest.c 
-testerTest: testeTest.o tester.o 
-    cc -o tester tester.o testerTest.o
